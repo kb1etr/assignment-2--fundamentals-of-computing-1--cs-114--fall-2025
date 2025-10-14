@@ -24,7 +24,7 @@ Using the `Coin` class defined on page 204 of our textbook (and included in this
 
 ### Program 2 (Print Vowels and Non-Vowels)
 
-Write a program that reads a string from the user, then determines and prints how many of each lowercase vowel (a, e, i, o, and u) appear in the entire string. Have a separate counter for each vowel. Also count and print the number of non-vowel characters. Use the following string to test your input:
+Write a program that reads a string from the user, then determines and prints how many of each lowercase vowel (a,  e, i, o, and u) appear in the entire string. Have a separate counter for each vowel. Also count and print the number of non-vowel characters. Use the following string to test your input:
 
     Write a program that reads a string from the user, then determines and prints how many of each lowercase vowel (a, e, i, o, and u) appear in the entire string. Have a separate counter for each vowel. Also count and print the number of non-vowel characters.
 
