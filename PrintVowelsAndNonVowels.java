@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class PrintVowelsAndNonVowels {
   public static void main(String[] args) {
     String input;
+    int vowelA = 0, vowelE = 0, vowelI = 0, vowelO = 0, vowelU = 0;
+    
+
     Scanner keyboardInput = new Scanner(System.in);
     input = keyboardInput.nextLine();
     int nonVow = input.length();
@@ -13,38 +16,50 @@ public class PrintVowelsAndNonVowels {
       switch(input.charAt(i)) {
         case 'a':
           System.out.println("a was found");
-          nonVow = --
+          vowelA = vowelA + 1;
+          nonVow = nonVow - 1;
 
           break;
         
         case 'e':
           System.out.println("e was found");
-          nonVow = --
+          vowelE = vowelE + 1;
+          nonVow = nonVow - 1;
 
           break;
 
         case 'i':
           System.out.println("i was found");
-          nonVow = --
+          vowelI = vowelI + 1;
+          nonVow = nonVow - 1;
 
           break;
+
         case 'o':
           System.out.println("o was found");
-          nonVow = --
+          vowelO = vowelO + 1;
+          nonVow = nonVow - 1;
 
           break;
 
         case 'u':
           System.out.println("u was found");
-          nonVow = --
+          vowelU = vowelU + 1;
+          nonVow = nonVow - 1;
 
           break;
 
-     System.out.println(nonVow);
-
-
-
       }
     }
+  
+  System.out.println("A - " + vowelA);
+  System.out.println("E - " + vowelE);
+  System.out.println("I - " + vowelI);
+  System.out.println("O - " + vowelO);
+  System.out.println("U - " + vowelU);
+  System.out.println();
+  System.out.println("non-vowel" + nonVow);
+  
+  
   }
 }
