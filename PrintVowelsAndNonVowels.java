@@ -5,6 +5,7 @@ public class PrintVowelsAndNonVowels {
   String inputChar;
   // System.out.print(inputChar.charAt(3)); 
   Scanner keyInput = new Scanner(System.in);
+  inputChar = keyInput.nextLine();
   int l = length(keyInput); 
   For (int i =0 , i > l , --i);{
    if (inputChar.charAt(i) == i);{
