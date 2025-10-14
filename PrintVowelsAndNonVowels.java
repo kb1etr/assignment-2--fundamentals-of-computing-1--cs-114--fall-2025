@@ -7,7 +7,7 @@ public class PrintVowelsAndNonVowels {
 
     Scanner keyboardInput = new Scanner(System.in);
     System.out.println();
-    System.out.print("String:");
+    System.out.print("String: ");
     input = keyboardInput.nextLine();
     int nonVow = input.length();
 
