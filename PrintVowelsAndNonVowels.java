@@ -4,7 +4,6 @@ public class PrintVowelsAndNonVowels {
   public static void main(String[] args) {
     String input;
     int vowelA = 0, vowelE = 0, vowelI = 0, vowelO = 0, vowelU = 0;
-    
 
     Scanner keyboardInput = new Scanner(System.in);
     input = keyboardInput.nextLine();
@@ -53,7 +52,5 @@ public class PrintVowelsAndNonVowels {
   System.out.println("U - " + vowelU);
   System.out.println();
   System.out.println("Non-vowel - " + nonVow);
-  
-  
   }
 }
