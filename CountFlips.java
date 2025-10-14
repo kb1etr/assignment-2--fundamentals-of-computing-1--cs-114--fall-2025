@@ -1,5 +1,4 @@
 public class CountFlips {
-  public static void main(String[] args) {
   private final int HEADS = 0;
 
   private int face;
@@ -25,10 +24,13 @@ public class CountFlips {
     return (face == HEADS);
   }
 
+
   // ---------------------------------------------------------------------------
   // Returns the current face of the coin as a string.
   // ---------------------------------------------------------------------------
-  public String toString() {
+  
+  public static void main(String[] args) {
+  // public String toString() {
     String faceName;
 
     if (face == HEADS) {
