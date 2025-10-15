@@ -1,48 +1,49 @@
 
 
 public class CountFlips {
-  
-  private final int HEADS = 0;
-
-  private int face;
-
-  // ---------------------------------------------------------------------------
-  // Sets up the coin by flipping it initially.
-  // ---------------------------------------------------------------------------
-  public void Coin() {
-    flip();
-  }
-
-  // ---------------------------------------------------------------------------
-  // Flips the coin by randomly choosing a face value.
-  // ---------------------------------------------------------------------------
-  public void flip() {
-    face = (int) (Math.random() * 2);
-  }
-
-  // ---------------------------------------------------------------------------
-  // Returns true if the current face of the coin is heads.
-  // ---------------------------------------------------------------------------
-  public boolean isHeads() {
-    return (face == HEADS);
-  }
-
-
-  // ---------------------------------------------------------------------------
-  // Returns the current face of the coin as a string.
-  // ---------------------------------------------------------------------------
-  
-  public static void main(String[] args) {
   public String toString() {
-    String faceName;
+    private final int HEADS = 0;
 
-    if (face == HEADS) {
-      faceName = "Heads";
-    } else {
-      faceName = "Tails";
+    private int face;
+
+    // ---------------------------------------------------------------------------
+    // Sets up the coin by flipping it initially.
+    // ---------------------------------------------------------------------------
+    public void Coin () {
+      flip();
     }
 
-    return faceName;
+    // ---------------------------------------------------------------------------
+    // Flips the coin by randomly choosing a face value.
+    // ---------------------------------------------------------------------------
+    public void flip () {
+      face = (int) (Math.random() * 2);
+    }
 
+    // ---------------------------------------------------------------------------
+    // Returns true if the current face of the coin is heads.
+    // ---------------------------------------------------------------------------
+    public boolean isHeads () {
+      return (face == HEADS);
+    }
+
+
+    // ---------------------------------------------------------------------------
+    // Returns the current face of the coin as a string.
+    // ---------------------------------------------------------------------------
+
+    public static void main (String[]args){
+
+      String faceName;
+
+      if (face == HEADS) {
+        faceName = "Heads";
+      } else {
+        faceName = "Tails";
+      }
+
+      return faceName;
+
+    }
   }
 }
