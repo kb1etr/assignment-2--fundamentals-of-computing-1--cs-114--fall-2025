@@ -1,4 +1,7 @@
+
+
 public class CountFlips {
+  
   private final int HEADS = 0;
 
   private int face;
@@ -6,7 +9,7 @@ public class CountFlips {
   // ---------------------------------------------------------------------------
   // Sets up the coin by flipping it initially.
   // ---------------------------------------------------------------------------
-  public Coin() {
+  public void Coin() {
     flip();
   }
 
@@ -30,7 +33,7 @@ public class CountFlips {
   // ---------------------------------------------------------------------------
   
   public static void main(String[] args) {
-  // public String toString() {
+  public String toString() {
     String faceName;
 
     if (face == HEADS) {
