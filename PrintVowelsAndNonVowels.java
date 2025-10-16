@@ -14,8 +14,8 @@ public class PrintVowelsAndNonVowels {
     for(int i = 0; i < input.length(); i++) {
       switch(input.charAt(i)) {
         case 'a':
-          vowelA = vowelA + 1;
-          nonVow = nonVow - 1;
+          vowelA ++;
+          nonVow --;
 
           break;
         
