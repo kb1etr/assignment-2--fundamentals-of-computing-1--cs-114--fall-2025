@@ -38,19 +38,20 @@ public class PrintVowelsAndNonVowels {
           break;
 
         case 'u':
-          vowelU ++1;
+          vowelU ++;
           nonVow --;
 
           break;
 
       }
     }
+  System.out.println("String has:");
   System.out.println();
-  System.out.println("A - " + vowelA);
-  System.out.println("E - " + vowelE);
-  System.out.println("I - " + vowelI);
-  System.out.println("O - " + vowelO);
-  System.out.println("U - " + vowelU);
+  System.out.println("a - " + vowelA);
+  System.out.println("e - " + vowelE);
+  System.out.println("i - " + vowelI);
+  System.out.println("o - " + vowelO);
+  System.out.println("u - " + vowelU);
   System.out.println();
   System.out.println("Non-vowel - " + nonVow);
   System.out.println();
