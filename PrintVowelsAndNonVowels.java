@@ -45,6 +45,7 @@ public class PrintVowelsAndNonVowels {
 
       }
     }
+  System.out.println();
   System.out.println("String has:");
   System.out.println();
   System.out.println("a - " + vowelA);
