@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class PrintVowelsAndNonVowels {
   public static void main(String[] args) {
-    String input;
 
+    String input;
     int vowelA = 0, vowelE = 0, vowelI = 0, vowelO = 0, vowelU = 0;
 
     Scanner keyboardInput = new Scanner(System.in);
@@ -18,31 +18,31 @@ public class PrintVowelsAndNonVowels {
           vowelA ++;
           nonVow --;
 
-          break;
+        break;
 
         case 'e':
           vowelE ++;
           nonVow --;
 
-          break;
+        break;
 
         case 'i':
           vowelI ++;
           nonVow --;
 
-          break;
+        break;
 
         case 'o':
           vowelO ++;
           nonVow --;
 
-          break;
+        break;
 
         case 'u':
           vowelU ++;
           nonVow --;
 
-          break;
+        break;
 
       }
     }
