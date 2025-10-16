@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class PrintVowelsAndNonVowels {
   public static void main(String[] args) {
     String input;
+
     int vowelA = 0, vowelE = 0, vowelI = 0, vowelO = 0, vowelU = 0;
 
     Scanner keyboardInput = new Scanner(System.in);
@@ -18,7 +19,7 @@ public class PrintVowelsAndNonVowels {
           nonVow --;
 
           break;
-        
+
         case 'e':
           vowelE ++;
           nonVow --;
