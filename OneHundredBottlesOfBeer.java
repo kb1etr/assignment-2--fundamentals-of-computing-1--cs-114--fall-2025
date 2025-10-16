@@ -8,11 +8,11 @@ public class OneHundredBottlesOfBeer {
     int userInput;
 
     System.out.println("Times : ");
-    userInput = input.nextInt()
+    userInput = input.nextInt();
 
     for (int = userInput; i > 0; i--) {
-      printVers(i)
-      System.out.print("   ")
+      printVers(i);
+      System.out.print("   ");
     }
 
   }
