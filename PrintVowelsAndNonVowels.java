@@ -20,26 +20,26 @@ public class PrintVowelsAndNonVowels {
           break;
         
         case 'e':
-          vowelE = vowelE + 1;
-          nonVow = nonVow - 1;
+          vowelE ++;
+          nonVow --;
 
           break;
 
         case 'i':
-          vowelI = vowelI + 1;
-          nonVow = nonVow - 1;
+          vowelI ++;
+          nonVow --;
 
           break;
 
         case 'o':
-          vowelO = vowelO + 1;
-          nonVow = nonVow - 1;
+          vowelO ++;
+          nonVow --;
 
           break;
 
         case 'u':
-          vowelU = vowelU + 1;
-          nonVow = nonVow - 1;
+          vowelU ++1;
+          nonVow --;
 
           break;
 
