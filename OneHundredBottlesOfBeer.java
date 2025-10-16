@@ -7,7 +7,7 @@ public class OneHundredBottlesOfBeer {
 
     int userInput;
 
-    System.out.print("Times : ");
+    System.out.print("Times: ");
     userInput = numberInp.nextInt();
     System.out.println();
 
@@ -22,7 +22,7 @@ public class OneHundredBottlesOfBeer {
    System.out.println(number + " bottles of beer on the wall");
    System.out.println(number + " bottles of beer");
    System.out.println("If one of those bottles should happen to fall");
-   System.out.println((number --) + " bottles of beer on the wall");
+   System.out.println((number - 1) + " bottles of beer on the wall");
 
  }
 
