@@ -5,7 +5,7 @@ public class CountFlips {
 
   int face = 0;
 
-   for ( int i = 0; i > 10; i++){
+   for ( int i = 0; i < 10; i++){
     
     face = (int) (Math.random() * 2);
     System.out.println("Face = " + (face));
