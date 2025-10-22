@@ -7,7 +7,12 @@ public class TheTwelveDaysOfChristmas {
 
     switch(i){
 
-    case 1:
+    default:
+     System.out.print("th");
+
+    break;
+    
+      case 1:
     System.out.print("st");
 
     break;
@@ -19,51 +24,6 @@ public class TheTwelveDaysOfChristmas {
 
     case 3:
      System.out.print("rd");
-
-    break;
-
-    case 4:
-     System.out.print("th");
-
-    break;
-
-    case 5:
-     System.out.print("th");
-    
-    break;
-
-    case 6:
-     System.out.print("th");
-
-    break;
-
-    case 7:
-     System.out.print("th");
-
-    break;
-
-    case 8:
-     System.out.print("th");
-
-    break;
-
-    case 9:
-     System.out.print("th");
-
-    break;
-
-    case 10:
-     System.out.print("th");
-
-    break;
-
-    case 11:
-     System.out.print("th");
-
-    break;
-
-    case 12:
-     System.out.print("th");
 
     break;
 
