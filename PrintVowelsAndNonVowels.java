@@ -7,40 +7,41 @@ public class PrintVowelsAndNonVowels {
     int vowelA = 0, vowelE = 0, vowelI = 0, vowelO = 0, vowelU = 0;
 
     Scanner keyboardInput = new Scanner(System.in);
+
     System.out.println();
     System.out.print("String: ");
     input = keyboardInput.nextLine();
-    int nonVow = input.length();
+    int nonVowel = input.length();
 
     for(int i = 0; i < input.length(); i++) {
       switch(input.charAt(i)) {
         case 'a':
           vowelA ++;
-          nonVow --;
+          nonVowel --;
 
         break;
 
         case 'e':
           vowelE ++;
-          nonVow --;
+          nonVowel --;
 
         break;
 
         case 'i':
           vowelI ++;
-          nonVow --;
+          nonVowel --;
 
         break;
 
         case 'o':
           vowelO ++;
-          nonVow --;
+          nonVowel --;
 
         break;
 
         case 'u':
           vowelU ++;
-          nonVow --;
+          nonVowel --;
 
         break;
 
@@ -55,7 +56,7 @@ public class PrintVowelsAndNonVowels {
   System.out.println("o - " + vowelO);
   System.out.println("u - " + vowelU);
   System.out.println();
-  System.out.println("Non-vowel - " + nonVow);
+  System.out.println("Non-vowel - " + nonVowel);
   System.out.println();
   }
 }

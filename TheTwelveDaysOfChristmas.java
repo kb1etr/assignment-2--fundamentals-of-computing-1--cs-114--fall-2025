@@ -6,67 +6,68 @@ public class TheTwelveDaysOfChristmas {
     switch(i){
 
     case 1:
-    System.out.println("On the 1st day of Christmas my true love gave to me");
+    System.out.print("On the 1st");
 
-     break;
+    break;
 
    case 2:
-    System.out.println("On the 2nd day of Christmas my true love gave to me");
+    System.out.print("On the 2nd");
 
     break;
 
     case 3:
-     System.out.println("On the 3rd day of Christmas my true love gave to me");
+     System.out.print("On the 3rd");
 
     break;
 
     case 4:
-     System.out.println("On the 4th day of Christmas my true love gave to me");
+     System.out.print("On the 4th");
 
-     break;
+    break;
 
     case 5:
-     System.out.println("On the 5th day of Christmas my true love gave to me");
+     System.out.print("On the 5th");
     
     break;
 
     case 6:
-     System.out.println("On the 6th day of Christmas my true love gave to me");
+     System.out.print("On the 6th");
 
-     break;
+    break;
 
     case 7:
-     System.out.println("On the 7th day of Christmas my true love gave to me");
+     System.out.print("On the 7th");
 
     break;
 
     case 8:
-     System.out.println("On the 8th day of Christmas my true love gave to me");
+     System.out.print("On the 8th");
 
     break;
 
     case 9:
-     System.out.println("On the 9th day of Christmas my true love gave to me");
+     System.out.print("On the 9th");
 
     break;
 
     case 10:
-     System.out.println("On the 10th day of Christmas my true love gave to me");
+     System.out.print("On the 10th");
 
     break;
 
     case 11:
-     System.out.println("On the 11th day of Christmas my true love gave to me");
+     System.out.print("On the 11th");
 
     break;
 
     case 12:
-     System.out.println("On the 12th day of Christmas my true love gave to me");
+     System.out.print("On the 12th");
 
     break;
 
     }
 
+    System.out.println(" day of Christmas my true love gave to me");
 
     switch(i){
 
@@ -111,26 +112,9 @@ public class TheTwelveDaysOfChristmas {
    case 1:
      System.out.println("A partridge in a pear tree.");
   
-  
-  }
+   }
 
   }
   
-  }
-
-
-
+ }
 }
-
-
-//switch(input.charAt(i)) {
-//        case 'a':
-//          vowelA ++;
-//          nonVow --;
-//        break;
-
-//        case 'e':
-//          vowelE ++;
-//          nonVow --;
-
-//        break;
