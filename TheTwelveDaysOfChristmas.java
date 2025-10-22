@@ -1,67 +1,69 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
-  
+
   for (int i = 1; i < 13; i++){
+
+   System.out.print("On the " + i);
 
     switch(i){
 
     case 1:
-    System.out.print("On the 1st");
+    System.out.print("st");
 
     break;
 
    case 2:
-    System.out.print("On the 2nd");
+    System.out.print("nd");
 
     break;
 
     case 3:
-     System.out.print("On the 3rd");
+     System.out.print("rd");
 
     break;
 
     case 4:
-     System.out.print("On the 4th");
+     System.out.print("th");
 
     break;
 
     case 5:
-     System.out.print("On the 5th");
+     System.out.print("th");
     
     break;
 
     case 6:
-     System.out.print("On the 6th");
+     System.out.print("th");
 
     break;
 
     case 7:
-     System.out.print("On the 7th");
+     System.out.print("th");
 
     break;
 
     case 8:
-     System.out.print("On the 8th");
+     System.out.print("th");
 
     break;
 
     case 9:
-     System.out.print("On the 9th");
+     System.out.print("th");
 
     break;
 
     case 10:
-     System.out.print("On the 10th");
+     System.out.print("th");
 
     break;
 
     case 11:
-     System.out.print("On the 11th");
+     System.out.print("th");
 
     break;
 
     case 12:
-     System.out.print("On the 12th");
+     System.out.print("th");
 
     break;
 
