@@ -5,14 +5,14 @@ public class TheTwelveDaysOfChristmas {
 
    System.out.print("On the " + i);
 
-    switch(i){
+  switch(i){
 
-    default:
+   default:
      System.out.print("th");
 
     break;
     
-      case 1:
+   case 1:
     System.out.print("st");
 
     break;
