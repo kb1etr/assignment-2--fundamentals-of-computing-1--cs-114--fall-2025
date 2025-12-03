@@ -17,7 +17,7 @@ public class CountFlips {
     }
 
     System.out.println();
-    System.out.println("How many times:");
+    System.out.println("How many times x 100:");
     System.out.println();
     System.out.println(headsCont + " # Heads");
     System.out.println();
