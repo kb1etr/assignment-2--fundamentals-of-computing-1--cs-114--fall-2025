@@ -32,7 +32,7 @@ public class TheTwelveDaysOfChristmas {
 
     }
 
-    System.out.println(" day of Christmas my true love gave to me");
+    System.out.println(" day of Christmas my true love gave to me -");
     System.out.println();
 
     switch(i){
